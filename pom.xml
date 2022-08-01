@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.234.29.202:9000/</sonar.host.url>
-                <sonar.login>8524a07717f90b264c3ab9d978f1687024914c72</sonar.login>
+		<sonar.host.url>http://13.127.138.113:9000/</sonar.host.url>
+                <sonar.login>8d9be121da8bc6fea7ff9c97c3a63bf253e02963</sonar.login>
 		
              
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>AmarReddy Releases Nexus Repository</name>
-	      <url>http://52.66.246.244:8081/nexus/repository/flipkart-release/</url>
+	      <url>http://13.235.76.67:8081/nexus/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>AmarReddy Snapshot Nexus Repository </name>
-	      <url>http://52.66.246.244:8081/nexus/repository/flipkart-Snapshot/</url>
+	      <url>http://13.235.76.67:8081/nexus/repository/flipkart-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
