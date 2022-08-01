@@ -11,12 +11,12 @@ node
     {
       sh "${mavenHome}/bin/mvn clean package"  
     }
-    stage('ExecutesonarReport')
+    /*stage('ExecutesonarReport')
     {
       sh "${mavenHome}/bin/mvn sonar:sonar"
     }
     stage('NexusArtifactory')
-    {
+    {*/
       sh "${mavenHome}/bin/mvn deploy"   
     }
     stage('DeployinTomcatServer')
